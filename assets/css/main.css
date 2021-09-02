@@ -5,16 +5,15 @@
   box-sizing: border-box;
 }
 .main {
-  max-width: 1920px;
   margin: auto;
 }
 .main .main-menu {
-  max-width: 1140px;
+  max-width: 1440px;
   margin: auto;
 }
 .main .main-menu .main-menu-Submenu {
   display: flex;
-  padding: 20px 0px;
+  padding: 40px 18px;
 }
 .main .main-menu .main-menu-Submenu .main-logo {
   width: 10%;
@@ -42,32 +41,46 @@
 .main .main-menu .main-menu-Submenu .main-navi ul li a:hover {
   color: blue;
 }
-.section-cards {
+.section-cards-1 .section-cards {
   position: relative;
 }
-.section-cards:after {
+.section-cards-1 .section-cards:after {
   content: "";
   display: block;
   padding-bottom: 100%;
 }
-.section-cards .section-image7 {
+.section-cards-1 .section-cards .section-image {
   position: absolute;
   width: 100%;
   height: 100%;
   background-position: center;
   background-size: cover;
-  background-image: url(Image7.png);
 }
-.section-cards .section-image8 {
-  background-image: url(Image8.png);
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-position: center;
-  background-size: cover;
+.section-cards-1 p {
+  font-size: 18px;
+  padding: 10px;
 }
 .section-item-1 {
   display: block;
+}
+.section-item-1 {
+  margin: auto;
+  padding: 20px;
+}
+.section-item-1 h1 {
+  font-size: 68px;
+}
+.section-item-1 h1 strong {
+  color: crimson;
+}
+.section-item-1 ol li {
+  padding: 20px;
+}
+.section-item-1 ol li a {
+  border-bottom: 2px solid #898083;
+  padding: 20px 0px 20px;
+  font-size: 18px;
+  color: black;
 }
 .section-text {
   display: flex;
